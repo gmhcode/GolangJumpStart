@@ -13,5 +13,12 @@ func main() {
 	// loop4()
 	// loop5()
 	// oddeven()
-	days()
+	// days()
+	// whatday(4)
+	// arr1()
+	// arr2()
+	// matrix()
+	// imatrix(3)
+	// slice1()
+	slice2()
 }
