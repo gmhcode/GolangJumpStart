@@ -29,3 +29,13 @@ func slice2() {
 	fmt.Println("x[3:] -> ", x[3:])
 
 }
+
+func slice3() {
+	s := make([]string, 3)
+	fmt.Println("String-Slice", s)
+	s[0] = "0"
+	s[2] = "0"
+
+	s = append(s, "c", "d")
+	fmt.Println(s)
+}

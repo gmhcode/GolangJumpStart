@@ -1,0 +1,1 @@
+Hello, I am the dunkirk.txt file, gotta make this text really long i order to show what read function and the while loop can do
