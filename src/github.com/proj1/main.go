@@ -36,5 +36,7 @@ func main() {
 	// methodDemo()
 	// interfaceDemo()
 	// goRoutine()
-	channelDemo()
+	// channelDemo()
+	// executeCountWaitGroup()
+	executeCountChannel()
 }
