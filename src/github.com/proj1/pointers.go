@@ -13,12 +13,12 @@ func pointer2() {
 
 	c := 5
 	// increment(c)
-	// increment(c)
-	// println("called from pointer 2 func :", c)
+	increment(c)
+	println("called from pointer 2 func :", c)
 
 	incrementbyptr(&c)
-	increment(c)
-	println("c: ", c)
+	incrementbyptr(&c)
+
 	println("called from pointer 2 func :", c)
 }
 
