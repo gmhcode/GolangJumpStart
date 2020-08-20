@@ -17,7 +17,8 @@ func pointer2() {
 	// println("called from pointer 2 func :", c)
 
 	incrementbyptr(&c)
-	incrementbyptr(&c)
+	increment(c)
+	println("c: ", c)
 	println("called from pointer 2 func :", c)
 }
 

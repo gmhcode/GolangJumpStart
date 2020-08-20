@@ -23,7 +23,7 @@ func main() {
 	// slice2()
 	// slice3()
 	// pointer1()
-	// pointer2()
+	pointer2()
 	// variadic()
 	// recursion()
 	// recursionPattern(5)
@@ -38,5 +38,5 @@ func main() {
 	// goRoutine()
 	// channelDemo()
 	// executeCountWaitGroup()
-	executeCountChannel()
+	// executeCountChannel()
 }
