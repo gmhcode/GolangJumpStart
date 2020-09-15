@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println("Hello World")
 	// c := add(5, 6)
@@ -23,7 +25,7 @@ func main() {
 	// slice2()
 	// slice3()
 	// pointer1()
-	pointer2()
+	// pointer2()
 	// variadic()
 	// recursion()
 	// recursionPattern(5)
@@ -39,4 +41,10 @@ func main() {
 	// channelDemo()
 	// executeCountWaitGroup()
 	// executeCountChannel()
+
+	s := make(Set)
+	//The extra empty bracket on the struct means that the struct is empty
+	s["item1"] = struct{}{}
+	s["item2"] = struct{}{}
+	fmt.Println(getValues(s))
 }
